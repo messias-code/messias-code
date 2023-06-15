@@ -84,6 +84,6 @@
 ![Linux Foundation](https://img.shields.io/static/v1?style=for-the-badge&message=Linux+Foundation&color=003366&logo=Linux+Foundation&logoColor=FFFFFF&label=)
 ![OWASP](https://img.shields.io/static/v1?style=for-the-badge&message=OWASP&color=000000&logo=OWASP&logoColor=FFFFFF&label=)
 
-![Snake animation](https://github.com/mrhowaito/mrhowaito/blob/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://github.com/mrhowaito/mrhowaito/blob/output/github-contribution-grid-snake-dark.svg) 
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6954e3&height=120&section=footer"/>

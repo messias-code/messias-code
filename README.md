@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6954e3&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ccbb00&size=32&center=true&vCenter=true&width=1000&lines=OI,+BEM+VINDOS+AO+MEU+PERFIL!;+ME+CHAMO+IHAN+MESSIAS+E+MORO+EM+BRASILIA-DF;TENHO+21+ANOS+E+ESTOU+EM+BUSCA+DE+OPORTUNIDADES!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ccbb00&size=32&center=true&vCenter=true&width=1000&lines=OI,+BEM+VINDOS+AO+MEU+PERFIL!)](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://github.com/mrhowaito">

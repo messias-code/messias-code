@@ -3,14 +3,13 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ccbb00&size=32&center=true&vCenter=true&width=1000&lines=OI,+BEM+VINDOS+AO+MEU+PERFIL!)](https://git.io/typing-svg)
 
 <p align="center">
-  <a href="https://github.com/codelinx-academy">
-    <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=codelinx-academy&show_icons=true&include_all_commits=true&count_private=false&title_color=6954e3&icon_color=ccbb00&text_color=c9d1d9&bg_color=0d1117"/>
-    <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=codelinx-academy&layout=compact&langs_count=7&title_color=6954e3&icon_color=ccbb00&text_color=c9d1d9&bg_color=0d1117"/>
+  <a href="https://github.com/messias-code">
+    <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=messias-code&show_icons=true&include_all_commits=true&count_private=false&title_color=6954e3&icon_color=ccbb00&text_color=c9d1d9&bg_color=0d1117"/>
+    <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=messias-code&layout=compact&langs_count=7&title_color=6954e3&icon_color=ccbb00&text_color=c9d1d9&bg_color=0d1117"/>
   </a>
 </p>
 
 [![LinkedIn Badge](https://img.shields.io/static/v1?style=for-the-badge&message=LinkedIn&color=0A66C2&logo=LinkedIn&logoColor=FFFFFF&label=)](https://www.linkedin.com/in/ihanmessias/)
-[![Discord](https://img.shields.io/static/v1?style=for-the-badge&message=Discord&color=5865F2&logo=Discord&logoColor=FFFFFF&label=)](https://discord.gg/8AG2BXnJ)
 [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ihan.codelinx/)
 
 ### ANALYSIS:
@@ -80,6 +79,6 @@
 ![Linux Foundation](https://img.shields.io/static/v1?style=for-the-badge&message=Linux+Foundation&color=003366&logo=Linux+Foundation&logoColor=FFFFFF&label=)
 ![OWASP](https://img.shields.io/static/v1?style=for-the-badge&message=OWASP&color=000000&logo=OWASP&logoColor=FFFFFF&label=)
 
-![Snake animation](https://github.com/mrhowaito/mrhowaito/blob/output/github-contribution-grid-snake-dark.svg) 
+![Snake animation](https://github.com/messias-code/messias-code/blob/output/github-contribution-grid-snake-dark.svg) 
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6954e3&height=120&section=footer"/>

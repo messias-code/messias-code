@@ -1,4 +1,4 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6954e3&height=120&section=header"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00FF88&height=120&section=header"/>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/13caef7e-657a-4c5f-8d98-fc366ac0f39e" alt="codeverso-academy" width="450">
@@ -17,4 +17,4 @@
 
 ![Snake animation](https://github.com/messias-code/messias-code/blob/output/github-contribution-grid-snake-dark.svg) 
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6954e3&height=120&section=footer"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00FF88&height=120&section=footer"/>

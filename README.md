@@ -1,6 +1,11 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6954e3&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ccbb00&size=32&center=true&vCenter=true&width=1000&lines=CodeVerso+Academy+—+Universo+Codificado)](https://git.io/typing-svg)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/13caef7e-657a-4c5f-8d98-fc366ac0f39e" alt="codeverso-academy" width="450">
+</p>
+
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ccbb00&size=32&center=true&vCenter=true&width=1000&lines=Universo+Codificado)](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://github.com/messias-code">

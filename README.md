@@ -5,7 +5,7 @@
 </p>
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ccbb00&size=32&center=true&vCenter=true&width=1000&lines=Universo+Codificado)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00FF88&size=32&center=true&vCenter=true&width=1000&pause=2000&lines="Do+código+ao+ciberespaço.")](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://github.com/messias-code">

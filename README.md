@@ -1,7 +1,7 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00FF88&height=120&section=header"/>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/13caef7e-657a-4c5f-8d98-fc366ac0f39e" alt="codeverso-academy" width="450">
+  <img src="https://github.com/user-attachments/assets/42701b4a-f8aa-4bf3-a6bc-d2125166a36e" alt="codeverso-academy" width="500">
 </p>
 
 

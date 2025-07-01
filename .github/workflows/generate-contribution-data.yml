@@ -1,10 +1,8 @@
 name: Coletar Dados Completos de Contribuição
 
 on:
-  # Roda automaticamente a cada 5 minutos
   schedule:
     - cron: "*/5 * * * *"
-  # Permite executar o trabalho manualmente a qualquer momento
   workflow_dispatch:
 
 jobs:
@@ -13,16 +11,18 @@ jobs:
     name: Gerar arquivo de dados de contribuição
     steps:
       - uses: actions/checkout@v3
+
       - name: Gerar arquivo de dados a partir do histórico completo
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Gera o arquivo com todas as contribuições, começando do primeiro commit
           outputs: |
             dist/contribution-data.csv?from=all
         env:
-          # Token de autenticação do GitHub
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Verificar o conteúdo do diretório
+        run: ls -R
 
       - name: Enviar arquivo de dados para o branch de saída
         uses: crazy-max/ghaction-github-pages@v3.1.0

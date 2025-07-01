@@ -23,7 +23,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&url=https://raw.githubusercontent.com/${{ github.repository_owner }}/${{ github.repository }}/output/contribution-data.csv
 
       - name: Enviar SVGs para o branch de saída
-        if: success() # Só roda se o passo anterior for bem-sucedido
+        if: success()
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

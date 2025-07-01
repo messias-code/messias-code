@@ -1,17 +1,15 @@
-nome: Gerar Animação
+name: Gerar Animação da Snake
 
 on:
   # Roda automaticamente a cada 5 minutos
   schedule:
     - cron: "*/5 * * * *"
-
   # Permite executar o trabalho manualmente a qualquer momento
   workflow_dispatch:
-
-  # Roda a cada push na branch main
+  # Roda também a cada push na branch main
   push:
     branches:
-      - main # Alterado de 'master' para 'main'
+      - main
 
 jobs:
   gerar:
@@ -21,18 +19,18 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # Gera um jogo da cobrinha a partir do gráfico de contribuições do usuário do GitHub
-      - nome: Gerar github-contribution-grid-snake.svg
+      # Gera a animação da snake a partir do arquivo com o histórico completo
+      - name: Gerar animação a partir do arquivo de dados
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          # Usa o arquivo de dados completo como fonte
+          contribution_file: https://raw.githubusercontent.com/${{ github.repository_owner }}/${{ github.repository }}/output/contribution-data.csv
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Envia o conteúdo do diretório de build para um branch
-      # O conteúdo ficará disponível em uma URL ou como uma GitHub Page
-      - nome: Enviar SVGs para o branch de saída
+      # Envia os SVGs gerados para o branch de saída
+      - name: Enviar SVGs para o branch de saída
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

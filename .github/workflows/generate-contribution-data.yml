@@ -1,0 +1,35 @@
+# .github/workflows/generate-contribution-data.yml
+
+name: Generate Contribution Data
+
+on:
+  # Roda uma vez por dia às 00:00 UTC
+  schedule:
+    - cron: "0 0 * * *"
+  # Permite rodar manualmente
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-contribution-file
+    steps:
+      - uses: actions/checkout@v3
+      - uses: Platane/snk/svg-only@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Gera o arquivo com todas as contribuições, começando do primeiro commit
+          outputs: |
+            dist/contribution-data.csv?from=all
+        env:
+          # Token de autenticação do GitHub
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push contribution data
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output # O mesmo branch de saída do seu outro workflow
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

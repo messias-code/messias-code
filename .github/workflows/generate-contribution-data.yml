@@ -21,10 +21,19 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Verificar o conteúdo do diretório
-        run: ls -R
+      - name: Checar se o arquivo de saída existe
+        id: checar_arquivo
+        run: |
+          if [ -f "dist/contribution-data.csv" ]; then
+            echo "Arquivo de contribuição encontrado. Prosseguindo com o envio."
+            echo "existe=true" >> $GITHUB_OUTPUT
+          else
+            echo "AVISO: Nenhum arquivo de contribuição foi gerado. Pulando o passo de envio."
+            echo "existe=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Enviar arquivo de dados para o branch de saída
+        if: steps.checar_arquivo.outputs.existe == 'true'
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

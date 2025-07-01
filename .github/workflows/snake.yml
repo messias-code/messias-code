@@ -19,8 +19,8 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           outputs: |
-            dist/github-contribution-grid-snake.svg?url=https://raw.githubusercontent.com/${{ github.repository_owner }}/${{ github.repository }}/output/contribution-data.csv
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&url=https://raw.githubusercontent.com/${{ github.repository_owner }}/${{ github.repository }}/output/contribution-data.csv
+            dist/github-contribution-grid-snake.svg?url=https://raw.githubusercontent.com/messias-code/messias-code/output/contribution-data.csv
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&url=https://raw.githubusercontent.com/messias-code/messias-code/output/contribution-data.csv
 
       - name: Enviar SVGs para o branch de saída
         if: success()

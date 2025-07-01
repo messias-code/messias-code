@@ -1,28 +1,28 @@
-name: generate animation
+nome: Gerar Animação
 
 on:
-  # run automatically every 5 minutes
+  # Roda automaticamente a cada 5 minutos
   schedule:
-    - cron: "*/5 * * * *"  # Alterado para rodar a cada 5 minutos
+    - cron: "*/5 * * * *"
 
-  # allows to manually run the job at any time
+  # Permite executar o trabalho manualmente a qualquer momento
   workflow_dispatch:
 
-  # run on every push on the master branch
+  # Roda a cada push na branch main
   push:
     branches:
-      - master
+      - main # Alterado de 'master' para 'main'
 
 jobs:
-  generate:
-    permissions: 
+  gerar:
+    permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
+      # Gera um jogo da cobrinha a partir do gráfico de contribuições do usuário do GitHub
+      - nome: Gerar github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -30,9 +30,9 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
+      # Envia o conteúdo do diretório de build para um branch
+      # O conteúdo ficará disponível em uma URL ou como uma GitHub Page
+      - nome: Enviar SVGs para o branch de saída
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

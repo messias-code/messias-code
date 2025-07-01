@@ -15,7 +15,8 @@ jobs:
       - name: Gerar arquivo de dados a partir do histórico completo
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          # usuário diretamente aqui.
+          github_user_name: 'messias-code'
           outputs: |
             dist/contribution-data.csv?from=all
         env:
